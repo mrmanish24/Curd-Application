@@ -21,6 +21,7 @@ const EditTopic = async ({params}) => {
   const {title, description} = topic;
   return (
     <>
+    
     <EditTopicForm id = {id} title={title} description= {description}/>
     </>
   )
